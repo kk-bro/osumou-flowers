@@ -1,0 +1,141 @@
+@charaset "UTF-8";
+
+body {
+  margin: 0 auto;
+  max-width: 600px;
+  /* background-color: black; */
+}
+
+* {
+  vertical-align: bottom;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.pc {
+  display: none;
+}
+
+h2 {
+  margin: 64px 0;
+  text-align: center;
+}
+
+h3 {
+  margin: 16px 0;
+}
+
+p {
+  line-height: 1.8;
+  margin: 8px 0;
+}
+
+/* ヘッダー */
+
+header {
+  height: 100px;
+  padding: 16px 32px;
+  background-color: lightgray;
+}
+
+/* ヒーローエリア */
+
+.hero {
+  background-image: url("https://256times-upload-files.s3.ap-northeast-1.amazonaws.com/production/101/4311/af880fc03d0175ac6ec908ba4f05cab9769dbdcc.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+/* コンセプト */
+
+#concept {
+  /* text-align: center; */
+  width: 400px;
+  margin: 0 auto;
+}
+
+#concept img {
+  animation: fuwatto 2s;
+}
+
+@keyframes fuwatto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* フッター */
+
+footer {
+  text-align: center;
+  background-color: azure;
+  padding: 48px 0;
+}
+
+table {
+  margin: auto;
+  /* border-spacing: 20px; */
+  /* display: flex; */
+  width: 300px;
+  /* background-color: aqua; */
+  margin-top: 48px;
+}
+
+tr {
+  /* background-color: antiquewhite; */
+}
+
+th {
+  text-align: left;
+  padding: 8px;
+  font-weight: normal;
+  /* background-color: aquamarine; */
+}
+
+td {
+  /* background-color: antiquewhite; */
+  padding: 8px;
+  text-align: left;
+  width: 60%;
+}
+
+.sns-icon {
+  /* background-color: aquamarine; */
+  margin: 16px 0;
+}
+
+.sns-icon a {
+  display: inline-block;
+  /* background-color: brown; */
+}
+
+.sns-icon a + a {
+  margin-left: 32px;
+}
+
+i:hover {
+  opacity: 0.7;
+}
+
+.bi {
+  font-size: 32px;
+}
+
+.bi-twitter {
+  color: #1da1f2;
+}
+
+.bi-facebook {
+  color: #1877f2;
+}
+
+.bi-instagram {
+  color: #c13584;
+}
+
+small {
+  /* background-color: aqua; */
+}
